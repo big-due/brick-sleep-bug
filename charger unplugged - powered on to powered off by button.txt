@@ -1,0 +1,24 @@
+charger unplugged - powered on to powered off by button:
+[   23.632031] axp2202_usb_power: current limit not set: usb adapter type
+[   23.632031]
+[   27.938473] udevd: 11 output lines suppressed due to ratelimiting
+[   28.044553] sunxi-bt soc@03000000:bt@0: block state already is 1
+[   28.053457] input: TRIMUI Player1 as /devices/virtual/input/input4
+[   28.270930] android_work: did not send uevent (0 0           (null))
+[   29.766045] sunxi-mmc sdc0: sdc set ios:clk 0Hz bm PP pm OFF vdd 0 width 1 timing LEGACY(SDR12) dt B
+[   29.777633] sunxi-mmc sdc2: sdc set ios:clk 0Hz bm PP pm OFF vdd 0 width 1 timing LEGACY(SDR12) dt B
+[   29.789334] [alarmtimer] have no shutdown alarm! alarmtimer_shutdown 322
+[   30.259749] sun50iw10p1-pinctrl pio: expect_func as:dsi4lane, but muxsel(4) is func:dsi0
+[   30.268830] sun50iw10p1-pinctrl pio: expect_func as:dsi4lane, but muxsel(4) is func:dsi0
+[   30.277891] sun50iw10p1-pinctrl pio: expect_func as:dsi4lane, but muxsel(4) is func:dsi0
+[   30.286957] sun50iw10p1-pinctrl pio: expect_func as:dsi4lane, but muxsel(4) is func:dsi0
+[   30.296047] sun50iw10p1-pinctrl pio: expect_func as:dsi4lane, but muxsel(4) is func:dsi0
+[   30.305110] sun50iw10p1-pinctrl pio: expect_func as:dsi4lane, but muxsel(4) is func:dsi0
+[   30.314177] sun50iw10p1-pinctrl pio: expect_func as:dsi4lane, but muxsel(4) is func:dsi0
+[   30.323287] sun50iw10p1-pinctrl pio: expect_func as:dsi4lane, but muxsel(4) is func:dsi0
+[   30.332359] sun50iw10p1-pinctrl pio: expect_func as:dsi4lane, but muxsel(4) is func:dsi0
+[   30.341425] sun50iw10p1-pinctrl pio: expect_func as:dsi4lane, but muxsel(4) is func:dsi0
+[   30.939316] sunxi_led_shutdown
+[   30.942768] sunxi_ohci_hcd_shutdown, ohci0-controller is disable, need not shutdown
+[   30.951364] sunxi_ehci_hcd_shutdown, ehci0-controller is disable, need not shutdown
+[   30.960063] reboot: Power down

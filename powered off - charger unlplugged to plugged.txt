@@ -1,0 +1,147 @@
+Powered off, charger unplugged to charger plugged in:
+[386]HELLO! BOOT0 is starting!
+[389]BOOT0 commit : 01e601494d
+[392]set pll start
+[394]periph0 has been enabled
+[397]set pll end
+[399]PL gpio voltage : 1.8V
+[402][pmu]: bus read error
+[405]unknow PMU
+[406][pmu]: bus read error
+[409]PMU: AXP2202
+[412]TCS: TCS4838
+[421]vaild para:1  select dram para0
+[425]board init ok, set sys_vol to 940mv!
+[429]rtc[0] value = 0x80000002
+[432]rtc[3] value = 0xb00d
+[455]DRAM BOOT DRIVE INFO: V0.696
+[458]the chip id is 0x8000
+[461]the chip id is 0x8000
+[463]the chip id is 0x8000
+[466]the chip id is 0x8000
+[469]the chip id is 0x8000
+[471]chip id check OK
+[475]DRAM_VCC set to 1200 mv
+[478]DRAM CLK =672 MHZ
+[480]DRAM Type =7 (3:DDR3,4:DDR4,7:LPDDR3,8:LPDDR4)
+[488]DRAM SIZE =1024 MBytes, para1 = 30fa, para2 = 4000000, tpr13 = 1007521
+[499]DRAM simple test OK.
+[502]dram size =1024
+[504]chipid = 54408000
+[506]nsi init ok 2020-4-7
+[510]card no is 2
+[511]sdcard 2 line count 8
+[514][mmc]: mmc driver ver 2020-05-25 09:40-202007019516
+[525][mmc]: Wrong media type 0x0
+[528][mmc]: ***Try SD card 2***
+[532][mmc]: mmc 2 cmd 8 timeout, err 100
+[536][mmc]: mmc 2 cmd 8 err 100
+[539][mmc]: mmc 2 send if cond failed
+[544][mmc]: mmc 2 cmd 55 timeout, err 100
+[548][mmc]: mmc 2 cmd 55 err 100
+[551][mmc]: mmc 2 send app cmd failed
+[555][mmc]: ***Try MMC card 2***
+[644][mmc]: RMCA OK!
+[646][mmc]: bias 0
+[648][mmc]: mmc 2 bias 0
+[651][mmc]: MMC 5.1
+[653][mmc]: HSSDR52/SDR25 8 bit
+[656][mmc]: 50000000 Hz
+[658][mmc]: 7456 MB
+[660][mmc]: ***SD/MMC 2 init OK!!!***
+[726]Loading boot-pkg Succeed(index=0).
+[730]Entry_name        = u-boot
+[737]Entry_name        = monitor
+[741]Entry_name        = scp
+[745]set arisc reset to assert state
+[753]set arisc reset to de-assert state
+[757]Entry_name        = dtb
+[761]tunning data addr:0x4a0003e8
+[764]Jump to second Boot.
+NOTICE:  BL3-1: v1.0(debug):406d5ac
+NOTICE:  BL3-1: Built : 11:27:22, 2022-05-07
+NOTICE:  BL3-1 commit: 8
+NOTICE:  info v0.0
+NOTICE:  cpuidle init version V2.0
+ERROR:   Error initializing runtime service tspd_fast
+NOTICE:  BL3-1: Preparing for EL3 exit to normal world
+NOTICE:  BL3-1: Next image address = 0x4a000000
+þOTICE:  BL3-1: Next image spsr = 0x1d3
+
+U-Boot 2018.05 (Dec 12 2024 - 21:45:17 +0800) Allwinner Technology
+
+[00.853]CPU:   Allwinner Family
+[00.856]Model: sun50iw10
+I2C:   ready
+[00.987]DRAM:  1 GiB
+[00.990]Relocation Offset is: 357f4000
+[01.031]secure enable bit: 0
+[01.034]PMU: AXP2202
+[01.036]PMU: pmu_axp2202 found
+[01.039]BMU: AXP2202
+[01.041]BMU: bmu_axp2202 found
+FDT ERROR:fdt_get_regulator_name:get property handle twi-supply error:FDT_ERR_INTERNAL
+[01.059]gpio_bias, pc_bias: 1800, pc_supply: not set
+[01.065]gpio_bias, pl_bias: 3300, pl_supply: aldo3_vol
+[01.072]dcdc1_vol = 940, onoff=1
+[01.076]aldo1_vol = 1800, onoff=1
+[01.080]aldo2_vol = 3300, onoff=1
+[01.085]aldo3_vol need to wait stable!
+[01.108]GPIOL change bias done!
+[01.111]aldo3_vol = 3300, onoff=1
+[01.115]aldo4_vol = 1800, onoff=1
+[01.120]bldo1_vol = 0, onoff=0
+[01.124]bldo2_vol = 1800, onoff=1
+[01.128]bldo3_vol = 3300, onoff=1
+[01.133]bldo4_vol = 1800, onoff=1
+[01.137]cldo1_vol = 1800, onoff=1
+[01.142]cldo3_vol = 3300, onoff=1
+[01.146]cldo4_vol = 3300, onoff=1
+[01.151]cpusldo_vol = 900, onoff=1
+bias_name:pc_bias        bias_vol:1800
+bias_name:pl_bias        bias_vol:3300
+[01.164]bat_vol=4185, ratio=95
+[01.166]safe_vol=3300, safe_ratio=1
+[01.169]TCS: TCS_probe
+[01.172]TCS: TCS4838
+[01.175]PTCS4838:reg0:df
+[01.177]PTCS4838:reg0:df
+[01.180]CPU=1008 MHz,PLL6=600 Mhz,AHB=200 Mhz, APB1=100Mhz  MBus=400Mhz
+[01.189]gic: sec monitor mode
+[01.192]sunxi flash type@2 not support fast burn key
+[01.196]flash init start
+[01.199]workmode = 0,storage type = 2
+[01.202][mmc]: mmc driver ver uboot2018:2021-07-19 14:09:00
+[01.208][mmc]: get sdc_type fail and use default host:tm4.
+[01.220][mmc]: SUNXI SDMMC Controller Version:0x50300
+[01.339][mmc]: Best spd md: 2-HSDDR52/DDR50, freq: 2-50000000, Bus width: 8
+[01.346]sunxi flash init ok
+[01.348]non secure, do not need update backup boot0 to toc0
+[01.354]init_clocks:finish
+[01.357]drv_disp_init
+[01.390]get flash lcd idx 0
+request pwm success, pwm0:pwm0:0x300a000.
+[01.402]drv_disp_init finish
+[01.405]boot_gui_init:start
+[01.408]set disp.dev2_output_type fail. using defval=0
+[01.413]disp 0, clk: pll(306000000),clk(306000000),dclk(51000000) dsi_rate(150000000)
+     clk real:pll(300000000),clk(300000000),dclk(75000000) dsi_rate(150000000)
+[01.438]enable power cldo4, ret=0
+[01.451]enable power cldo1, ret=0
+[01.668]switch device: sel=0, type=1, mode=4, format=0, bits=0, eotf=4, cs=260
+[01.675]boot_gui_init:finishuboot->>>OTM1289A:lcd panel init
+check_lcd_module
+0x04=91, len=1 [91 00 00 00]
+0xDA=91, len=1 [91 00 00 00]
+0xDB=68, len=1 [68 00 00 00]
+0xDC=03, len=1 [03 00 00 00]
+LCD module jd9168
+[01.738]enable power cldo4, ret=0
+[01.752]enable power cldo1, ret=0
+
+TRIMUI boot reason=charger
+TRIMUI boot auto shut down
+[02.147][mmc]: mmc exit start
+[02.201]soc ic_ver:0x6, qa_val:0x0, markid:0x8000 dclk[0-9999] display_cfg_flag:0
+[02.261]LCD open finish
+[02.264][mmc]: mmc 2 exit ok
